@@ -15,7 +15,7 @@ export default function Home() {
   
      <section className="flex flex-col items-center justify-center gap-4 p-10 w-full h-1/2 ">
       
-     <h1 className="text-onBackground font-bold text-4xl text-wrap pr-10 pl-10"> I am <span className="bg-primary text-onPrimary">caption </span> generator, let me help you so you can focus on what matters the most.</h1>
+     <h1 className="text-onBackground font-bold text-4xl text-wrap pr-10 pl-10"> I am a <span className="bg-primary text-onPrimary">caption </span> generator, let me help you so you can focus on what matters the most.</h1>
     
  <div className=" relative aspect-square w-2/3 h-2/3 ">
      <Image  
