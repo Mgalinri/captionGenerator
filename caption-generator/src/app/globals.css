@@ -1,0 +1,73 @@
+@import "tailwindcss";
+
+
+:root {
+  --foreground: #171717;
+}
+
+@theme inline {
+--color-primary: #4F182E;
+--color-surfaceTint: #8C4A60;
+--color-onPrimary: #FFFFFF;
+--color-primaryContainer: #72354B;
+--color-onPrimaryContainer: #FFFFFF;
+--color-secondary: #3D252D;
+--color-onSecondary: #FFFFFF;
+--color-secondaryContainer: #5D424A;
+--color-onSecondaryContainer: #FFFFFF;
+--color-tertiary: #432508;
+--color-onTertiary: #FFFFFF;
+--color-tertiaryContainer: #644122;
+--color-onTertiaryContainer: #FFFFFF;
+--color-error: #600004;
+--color-onError: #FFFFFF;
+--color-errorContainer: #98000A;
+--color-onErrorContainer: #FFFFFF;
+--color-background: #FFF8F8;
+--color-onBackground: #22191C;
+--color-surface: #FFF8F8;
+--color-onSurface: #000000;
+--color-surfaceVariant: #F2DDE1;
+--color-onSurfaceVariant: #000000;
+--color-outline: #35292C;
+--color-outlineVariant: #544649;
+--color-shadow: #000000;
+--color-scrim: #000000;
+--color-inverseSurface: #372E30;
+--color-inverseOnSurface: #FFFFFF;
+--color-inversePrimary: #FFB1C8;
+--color-primaryFixed: #72354B;
+--color-onPrimaryFixed: #FFFFFF;
+--color-primaryFixedDim: #571F34;
+--color-onPrimaryFixedVariant: #FFFFFF;
+--color-secondaryFixed: #5D424A;
+--color-onSecondaryFixed: #FFFFFF;
+--color-secondaryFixedDim: #452C33;
+--color-onSecondaryFixedVariant: #FFFFFF;
+--color-tertiaryFixed: #644122;
+--color-onTertiaryFixed: #FFFFFF;
+--color-tertiaryFixedDim: #4A2B0E;
+--color-onTertiaryFixedVariant: #FFFFFF;
+--color-surfaceDim: #C4B5B8;
+--color-surfaceBright: #FFF8F8;
+--color-surfaceContainerLowest: #FFFFFF;
+--color-surfaceContainerLow: #FDEDEF;
+--color-surfaceContainer: #EFDFE1;
+--color-surfaceContainerHigh: #E0D1D3;
+--color-surfaceContainerHighest: #D2C3C5;
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
