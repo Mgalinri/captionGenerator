@@ -24,8 +24,10 @@ pip install -r requirements.txt
 - [ ] Improve UI
 
 # Features
-1. An image in any format 
-## Images
+1. Generates a caption using Blip for an image in any format
+2. Landing page styled using TailwindCSS
+    
+# Images
 ![alt text](image-1.png)
 ![alt text](image.png)
 <img width="488" height="343" alt="image" src="https://github.com/user-attachments/assets/1544a1ab-996b-4be3-b963-5cf4edbfed90" />
