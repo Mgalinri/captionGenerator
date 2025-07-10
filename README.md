@@ -2,7 +2,7 @@
 The following project was generated as a web app for the visual studio code extension accesibility-helper
 > **Note**: This webApp is still under development
 # Tech Stack
-**Front-end**: React, TailwindCSS
+**Front-end**: React (Next.JS) , TailwindCSS
 **Backend**: Python (FastAPI)
 **Database**: Postgres (Supabase)
 
@@ -28,6 +28,8 @@ pip install -r requirements.txt
 ## Images
 ![alt text](image-1.png)
 ![alt text](image.png)
+<img width="488" height="343" alt="image" src="https://github.com/user-attachments/assets/1544a1ab-996b-4be3-b963-5cf4edbfed90" />
+
 
 # License
 Licensed under MIT License.
