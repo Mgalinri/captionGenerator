@@ -1,12 +1,16 @@
 # Caption Generator
 The following project was generated as a web app for the visual studio code extension accesibility-helper
 > **Note**: This webApp is still under development
-# Tech Stack
+## Tech Stack
 **Front-end**: React (Next.JS) , TailwindCSS
 **Backend**: Python (FastAPI)
 **Database**: Postgres (Supabase)
 
-#Run Locally
+## Features
+1. Generates a caption using Blip for an image in any format
+2. Landing page styled using TailwindCSS
+    
+##Run Locally
 ```
 clone https://github.com/Mgalinri/captionGenerator.git
 cd caption-generator
@@ -18,15 +22,12 @@ pip install -r requirements.txt
 ```
 > This project was generated using supabase, but it can be run without it given that for now is not using storage.
 > 
-# Future Improvements
+## Future Improvements
 - [ ] Authenticaction and Authorization
 - [ ] File handling per user
 - [ ] Improve UI
 
-# Features
-1. Generates a caption using Blip for an image in any format
-2. Landing page styled using TailwindCSS
-    
+
 # Images
 ![alt text](image-1.png)
 ![alt text](image.png)
